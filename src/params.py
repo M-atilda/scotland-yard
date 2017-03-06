@@ -42,7 +42,7 @@ def shown_turn():
     global _shown_turn
     return _shown_turn
 
-_shell_command = "python3 police_src/police_operate.py"
+_shell_command = "java Main"
 def shell_command():
     global _shell_command
     return _shell_command
