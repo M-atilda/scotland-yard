@@ -89,5 +89,7 @@ ENV/
 .ropeproject
 
 # User defined setting
-resource
+resource/nextAction.txt
+resource/map_data.txt
+resource/status.txt
 
