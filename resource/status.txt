@@ -1,8 +1,0 @@
-8
-[r]CLIMINAL[p]162[c]['','STATION','AIRPORT']
-[n]0[r]POLICE[p]100[c]['','STATION','AIRPORT']
-[n]1[r]POLICE[p]58[c]['','STATION','AIRPORT']
-[n]2[r]POLICE[p]32[c]['','STATION','AIRPORT']
-[n]3[r]POLICE[p]87[c]['','STATION','AIRPORT']
-[n]4[r]POLICE[p]166[c]['','STATION','AIRPORT']
-@
