@@ -51,12 +51,14 @@ class Player:
         if not kind in self.__card_set:
             raise
 
+        """
         for (i, card) in enumerate(self.__card_set):
             if kind == card:
                 temp_following_cards = self.__card_set[i+1:]
                 self.__card_set = self.__card_set[:i]
                 self.__card_set.extend(temp_following_cards)
                 break
+        """
 
     def makePrintSentense(self):
         sentense = "[r]" + self.__occupation

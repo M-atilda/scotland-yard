@@ -4,8 +4,10 @@
 #rational  : this file includes classes for providing parameters
 
 #player
-_police_init_cards = ["", "", "", "", "", "", "STATION", "STATION", "STATION", "AIRPORT", "AIRPORT"]
-_climinal_init_cards = ["", "", "", "", "", "STATION", "STATION", "STATION", "STATION", "AIRPORT", "AIRPORT", "AIRPORT"]
+#_police_init_cards = ["", "", "", "", "", "", "STATION", "STATION", "STATION", "AIRPORT", "AIRPORT"]
+#_climinal_init_cards = ["", "", "", "", "", "STATION", "STATION", "STATION", "STATION", "AIRPORT", "AIRPORT", "AIRPORT"]
+_police_init_cards = ["", "STATION", "AIRPORT"]
+_climinal_init_cards = ["", "STATION", "AIRPORT"]
 def police_init_cards():
     global _police_init_cards
     return _police_init_cards
@@ -14,8 +16,8 @@ def climinal_init_cards():
     return _climinal_init_cards
 
 #map
-_nodes_amount = 60
-_police_amount = 4
+_nodes_amount = 200
+_police_amount = 5
 _station_prob = 20
 _airport_prob = 5
 
@@ -33,7 +35,7 @@ def airport_prob():
     return _airport_prob
 
 #meta
-_max_turn = 12
+_max_turn = 24
 _shown_turn = [3, 8, 14, 20, 24]
 def max_turn():
     global _max_turn

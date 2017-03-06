@@ -22,6 +22,5 @@ def parse(input_str):
         elif arg[1] == 'A':
             result.append({"command": "AIRPORT", "destination": dest})
         else:
-            print("ERROR[PARSE]")
-            raise
+            raise Exception("ERROR [PARSE]: invalid input format")
     return result
