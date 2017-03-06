@@ -1,3 +1,6 @@
+# User env setting
+resource/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -88,8 +91,4 @@ ENV/
 # Rope project settings
 .ropeproject
 
-# User defined setting
-resource/nextAction.txt
-resource/map_data.txt
-resource/status.txt
 

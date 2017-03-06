@@ -2,7 +2,10 @@
 scotland-yard's platform
 
 ###使い方###
-*毎回編集前にはコマンド git pull を実行
+*毎回編集前にはコマンド
+	git commit -am "commit for pull"
+	git pull
+	を実行
 
 *Main.java を作成
 **resource/map_data.txt と resource/status.txt を参照して状態を取得
